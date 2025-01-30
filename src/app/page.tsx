@@ -1,4 +1,5 @@
 import Faq from '@/components/Faq'
+import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Main from '@/components/Main'
 import Product from '@/components/Product'
@@ -13,6 +14,7 @@ export default function page() {
       <Product />
       <WhyUs />
       <Faq />
+      <Footer />
     </div>
   )
 }
